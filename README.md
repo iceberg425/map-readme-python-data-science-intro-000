@@ -192,7 +192,7 @@ list(map(find_initial, simpsons))
 
 So the map function goes through each element and executes the altering function on the current element. Then the return value of the altering function is added as an element to the new list, which is then returned after we coerce the map object to a list.
 
-`map`, just like `filter`, is built into python is always available. It is also computationally more efficient than a manually coded for loop. 
+`map`, just like `filter`, is built into python and is always available. It is also computationally more efficient than a manually coded for loop. 
 
 `map` can be used in more advance ways e.g. given multiple sequence arguments, it sends items taken form sequences in parallel as distinct arguments to the function. Let's see this through an example below.
 
